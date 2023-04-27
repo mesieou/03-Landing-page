@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-img1, .card-img2, .card-img3 {
+  flex-basis: 20%;
+  border: outset;
+  box-shadow: 2px 2px 20px beige;
+  height: 300px;
+  text-align: center;
+}
+.card-img1 img, .card-img2 img, .card-img3 img {
+  height: 100px;
+  padding-top: 25px;
+}
